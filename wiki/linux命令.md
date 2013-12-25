@@ -44,3 +44,5 @@
  * ./configure --with-php-config=/usr/local/php-5.3.x/bin/php-config
  * make
  * make install
+
+### 家目录.vimrc 添加 set tabstop=4 'vim 设置tab转成4个空格'
