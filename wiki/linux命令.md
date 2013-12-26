@@ -46,3 +46,4 @@
  * make install
 
 ### 家目录.vimrc 添加 set tabstop=4 'vim 设置tab转成4个空格'
+ * vim  安装ide  http://www.cnblogs.com/ggjucheng/archive/2012/08/19/2646455.html
