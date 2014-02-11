@@ -1,5 +1,5 @@
 ### netstat   -ano | grep ':80'  查看80端口使用情况
-### git blame  文件名  查看文件是谁修改的
+### git blame  文件名  查看文件最后一次是谁修改的
 
 ### :set fileformat=unix   设置文件编码
 
