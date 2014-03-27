@@ -14,7 +14,8 @@
 ### ps -ef | grep 'apache'  查看进程
 
 ###数据库主从配置 http://www.tecmint.com/how-to-setup-mysql-master-slave-replication-in-rhel-centos-fedora/
-###翻墙 https://code.google.com/p/goagen/
+###翻墙 https://code.google.com/p/goagent/
+###https://code.google.com/p/goagent/
 
 ###编译安装php
  * sudo ./configure --prefix=/usr/local/php --with-apxs2=/usr/local/apache2/bin/apxs --with-libxml-dir=/usr/include/libxml2 --with-config-file-path=/usr/local/php/etc/ --with-mysql --with-mysqli --with-gd --enable-gd-native-ttf --with-zlib --with-mcrypt=/usr/lib/libmcrypt --with-pdo-mysql --enable-shmop --enable-soap --enable-sockets --enable-wddx --enable-zip --with-xmlrpc --enable-mbstring --with-zlib-dir --with-bz2 --with-curl --enable-exif --enable-ftp --with-jpeg-dir=/usr/local/jpeg --with-png-dir=/usr/lib/libpng --with-iconv=/usr/local/libiconv --enable-xml --enable-bcmath --enable-sysvsem
