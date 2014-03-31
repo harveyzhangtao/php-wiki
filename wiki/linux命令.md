@@ -48,3 +48,6 @@
 
 ### 家目录.vimrc 添加 set tabstop=4 'vim 设置tab转成4个空格'
  * vim  安装ide  http://www.cnblogs.com/ggjucheng/archive/2012/08/19/2646455.html
+ 
+### 生成缩略图  Nginx + GridFS 实现的缩略图处理机制
+ * http://zoomq.qiniudn.com/ZQScrapBook/ZqFLOSS/data/20110718145649/index.html
