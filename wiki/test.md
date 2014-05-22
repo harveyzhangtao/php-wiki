@@ -9,3 +9,5 @@ http://www.admin10000.com/document/4160.html
 
 ## css
 http://v3.bootcss.com/components/#dropdowns
+## php xitong function
+http://www.php.net/manual/zh/funcref.php
