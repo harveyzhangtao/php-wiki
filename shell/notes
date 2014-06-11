@@ -1,0 +1,2 @@
+##为了在任何目录都能编译和执行shell程序， 把/shell这个目录添加到环境变量中
+export PATH=/home/zhangtao/www/testphp/shell:$PATH
