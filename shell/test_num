@@ -1,0 +1,8 @@
+#! /bin/sh
+read x y
+if test $x -eq $y
+  then
+    echo "$x=$y"
+else
+    echo "$x!=$y"
+fi

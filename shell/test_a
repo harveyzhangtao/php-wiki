@@ -1,0 +1,7 @@
+#! /bin/sh
+part1="1111"
+part2=" "
+[ $part1 -a $part2 ]
+echo $?
+[ $part1 -o $part2 ]
+echo $?
