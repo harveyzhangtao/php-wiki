@@ -1,0 +1,7 @@
+for((j=0;j<=10;j++))
+  do
+    if(($j%2==1))
+    then
+      echo "$j"
+    fi
+  done

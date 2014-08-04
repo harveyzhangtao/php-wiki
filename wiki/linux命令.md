@@ -51,3 +51,5 @@
  
 ### 生成缩略图  Nginx + GridFS 实现的缩略图处理机制
  * http://zoomq.qiniudn.com/ZQScrapBook/ZqFLOSS/data/20110718145649/index.html
+
+###locate  查找文件，比find快 

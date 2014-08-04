@@ -1,0 +1,12 @@
+#! /bin/sh
+echo "Please enter the directory name or file name"
+read DORF
+if [ -d $DORF ]
+then
+ls $DORF
+elif [ -f $DORF ]
+then
+cat $DORF
+else
+echo "input error!"
+fi
