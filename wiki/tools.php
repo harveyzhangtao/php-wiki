@@ -53,3 +53,15 @@
         array_multisort($test, SORT_DESC, SORT_STRING, $tmp, SORT_DESC);
         var_dump($test);
     }
+ public function array_sort($arr,$keys,$type='asc'){
+        $tmp = array();
+        foreach($arr as $k=>$v){
+            $tmp[$k] = $v[$keys];
+        }
+        if($type == "asc"){
+            array_multisort($arr, SORT_ASC, SORT_STRING, $tmp, SORT_ASC);
+        }else{
+            array_multisort($arr, SORT_DESC, SORT_STRING, $tmp, SORT_DESC);
+        }
+        return $arr;
+    }
