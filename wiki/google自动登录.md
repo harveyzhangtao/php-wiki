@@ -3,7 +3,7 @@
 第一步：https://console.developers.google.com/apis/credentials?
        启用 api   (Google Play Game Services)   按步骤配置 得到Client ID.
 
-第二步:编写html， 例子
+第二步:编写html， 例子：打开编辑查看
 <html lang="en">
 <head>
     <meta name="google-signin-scope" content="profile email">
