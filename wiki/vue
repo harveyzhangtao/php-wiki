@@ -3,3 +3,8 @@
 3.全局安装 vue-cli  :      cnpm install --global vue-cli
 4.创建一个基于 webpack 模板的新项目：vue init webpack my-project
 5.默认回车
+6.使用 Github 上 Vue 最新的资源 
+git clone https://github.com/vuejs/vue.git node_modules/vue
+cd node_modules/vue
+npm install
+npm run build
