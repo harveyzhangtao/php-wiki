@@ -1,0 +1,39 @@
+function deepScanDir($dir) {
+        $fileArr = array ();
+        $dirArr = array ();
+        $dir = rtrim($dir, '//');
+        if (is_dir($dir)) {
+            $dirHandle = opendir($dir);
+            while (false !== ($fileName = readdir($dirHandle))) {
+                $subFile = $dir . DIRECTORY_SEPARATOR . $fileName;
+                if (is_file($subFile)) {
+                    $fileArr[] = $subFile;
+                }
+                elseif (is_dir($subFile) && str_replace('.', '', $fileName) != '') {
+                    $dirArr[] = $subFile;
+//                    $arr = $this->deepScanDir($subFile);//内循环
+//                    $dirArr = array_merge($dirArr, $arr['dir']);
+//                    $fileArr = array_merge($fileArr, $arr['file']);
+                }
+            }
+            closedir($dirHandle);
+        }
+        return array (
+            'dir' => $dirArr,
+            'file' => $fileArr
+        );
+    }
+    
+    
+    
+    
+    function test(){
+        $dir = "/Users/zhangtao/workspace";
+        $dirFiles = $this->deepScanDir($dir);
+        var_dump($dirFiles);
+        if(!empty($dirFiles['file'])){
+            foreach($dirFiles['file'] as $file){
+                var_dump($file);
+            }
+        }
+    }
