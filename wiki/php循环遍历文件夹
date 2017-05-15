@@ -33,7 +33,9 @@ function deepScanDir($dir) {
         var_dump($dirFiles);
         if(!empty($dirFiles['file'])){
             foreach($dirFiles['file'] as $file){
-                var_dump($file);
+                $rs = substr($file, strrpos($file, '/')+1);
+                $arr = explode('.', $rs);
+                var_dump($arr);
             }
         }
     }
