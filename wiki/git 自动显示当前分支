@@ -20,7 +20,7 @@ PROMPT_COMMAND="find_git_branch; $PROMPT_COMMAND"
 red=$'\e[31m'
 normal_colours=$'\e[m'
 
-PS1="\[$red\]\$git_branch\[$normal_colours\] \w \$ "
+PS1=" \w \[$red\]\$git_branch\[$normal_colours\] \$ "
 
 
 
