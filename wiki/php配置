@@ -1,0 +1,10 @@
+mac 配置环境变量
+vim ~/.bash_profile
+
+
+让配置立即生效（不用重启系统）
+source .bash_profile
+
+
+
+sudo /usr/sbin/httpd -k start  查看apache启动状态
