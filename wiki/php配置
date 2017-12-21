@@ -8,3 +8,6 @@ source .bash_profile
 
 
 sudo /usr/sbin/httpd -k start  查看apache启动状态
+
+
+/usr/local/opt/php56/bin/php   php执行命令
