@@ -1,0 +1,1 @@
+brew link --force openssl   遇到错误参考 https://github.com/dotnet/cli/issues/3964#issuecomment-236485454
