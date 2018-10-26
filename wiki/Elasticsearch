@@ -21,3 +21,4 @@ curl -XPUT 'localhost:9200/索引?pretty'
 5.删除索引
 curl -XDELETE 'localhost:9200/索引名'
 
+6. nohup 不挂断地运行命令。
