@@ -1,3 +1,23 @@
 1.相关文档
 https://www.elastic.co/guide/en/elasticsearch/client/php-api/5.0/_quickstart.html
 https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/running-elasticsearch.html
+
+
+
+
+2.启用
+检查是否启用 ps -ef | grep elastic
+杀掉进程 kill -9 进程
+cd ~/elasticsearch-<version>
+nohup ./bin/elasticsearch  &
+
+
+3.查看所有索引
+curl 'localhost:9200/_cat/indices?v'
+
+4.新建索引
+curl -XPUT 'localhost:9200/索引?pretty'
+
+5.删除索引
+curl -XDELETE 'localhost:9200/索引名'
+
