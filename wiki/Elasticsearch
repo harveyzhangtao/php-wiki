@@ -22,3 +22,9 @@ curl -XPUT 'localhost:9200/索引?pretty'
 curl -XDELETE 'localhost:9200/索引名'
 
 6. nohup 不挂断地运行命令。
+nohup ./bin/elasticsearch  &
+
+7.ES硬盘扩容
+修改elasticsearch.yml中path.data属性，添加多路径以逗号分隔
+path.data: /Users/zhangtao/es/data,/Users/zhangtao/es/data2,/Users/zhangtao/elasticsearch-5.6.10/data
+重启ES
