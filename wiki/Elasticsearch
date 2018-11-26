@@ -28,3 +28,6 @@ nohup ./bin/elasticsearch  &
 修改elasticsearch.yml中path.data属性，添加多路径以逗号分隔
 path.data: /Users/zhangtao/es/data,/Users/zhangtao/es/data2,/Users/zhangtao/elasticsearch-5.6.10/data
 重启ES
+
+8.常见错误
+https://blog.csdn.net/u013083576/article/details/78499884
