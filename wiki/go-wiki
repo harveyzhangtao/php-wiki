@@ -1,0 +1,7 @@
+go test -bench . -cpuprofile cpu.out   生成测试报告
+
+go tool pprof cpu.out  进入测试报告
+
+输入web  生成web文件
+
+open -a "/Applications/Google Chrome.app" /private/var/folders/9q/6sj40g4s6szd_1mc9qmsc9cw0000gn/T/pprof002.svg   浏览器打开测试报告
